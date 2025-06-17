@@ -7,7 +7,7 @@ CatDetector предсказывает *bounding box*'ы животного на
 
 В файле **basesline.ipynb** предоставлен процесс обучения модели детекции SSD для распознавания классов
 
-**best_ssd.pth** -- полученныее веса модели
+Полученные [веса](https://drive.google.com/file/d/1sKBSmMBSg3RvJgTRfRPS2D3y6zHtzi4Z/view?usp=sharing) модели как и [исходный датасет](https://drive.google.com/file/d/1TvEXxb6kqDBkrb1_7kdExPkHGTfxvxFX/view?usp=drive_link) можно загрузить с гугл диска.
 
 Файл **CatDetecor.py** хранит код работы детектора
 
@@ -29,6 +29,6 @@ pip install -r requirements.txt
 python CatDetector.py
 ```
 
-4. Введите путь к изоюражению
+4. Введите путь к изображению
 
 5. Результат будет лежать в папке **output**
